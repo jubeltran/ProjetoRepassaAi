@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url("../fonts/Pacifico/Pacifico.ttf")
+}
+
+@font-face {
+    font-family: 'Normal';
+    src: url("../fonts/corpo/corpo.ttf")
+}
+
+
+body{
+    font-family: 'Normal',sans-serif;
+    background-color:rgb(212, 243, 243);
+}
+.center{
+    text-align: center;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+  
+}
+label, input{
+    display: block;
+    margin: 5px;
+ }
+ label{
+    margin-top: 10px;
+ }
+h1{
+    font-family: 'Pacifico',sans-serif;
+    font-size: x-large;
+}
+.title-1{
+    font-weight: 600;
+    color: black;
+    border-radius: 16px;  
+    margin: 5px;
+}
+table {
+    display: table;
+    width: 100%;
+    border:none;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-collapse: collapse;
+}
+
+
+td {
+    padding: 15px;
+    text-align: justify;
+}
+.doar{
+    width: 50px;
+    margin: 20px;
+}
+
+th {
+    font-weight: bold;
+    font-family: 'Verdana';
+    font-size: 14x;
+    padding: 8px 24px;
+}
+.doadores{
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.doador{
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.doarrank{
+    width: 200px;
+    margin: 20px;
+    right: 1000px;
+}
+
+
