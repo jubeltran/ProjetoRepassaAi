@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url("../fonts/Pacifico/Pacifico.ttf")
+}
+
+@font-face {
+    font-family: 'Normal';
+    src: url("../fonts/corpo/corpo.ttf")
+}
+
+
+body{
+    font-family: 'Normal',sans-serif;
+    background-color:rgb(212, 243, 243);
+}
+.center{
+    text-align: center;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+  
+}
+label, input{
+    display: block;
+    margin: 5px;
+ }
+ label{
+    margin-top: 10px;
+ }
+h1{
+    font-family: 'Pacifico',sans-serif;
+    font-size: x-large;
+}
+.title-1{
+    font-weight: 600;
+    color: black;
+    border-radius: 16px;  
+    margin: 5px;
+}
+table {
+    display: table;
+    width: 100%;
+    border:none;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-collapse: collapse;
+}
+
+
+td {
+    padding: 15px;
+    text-align: justify;
+}
+.doar{
+    width: 50px;
+    margin: 20px;
+}
+
+th {
+    font-weight: bold;
+    font-family: 'Verdana';
+    font-size: 14x;
+    padding: 8px 24px;
+}
+
+.perfil{
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.ft{
+    width: 80px;
+    margin: 0px;
+    right: 1000px;
+}
+.btn{
+    margin: 10px;
+    position: relative;
+    background-color: white;
+    color:black;
+    outline: none;
+    border: solid rgb(157, 228, 228) 1px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 10px;
+   
+    background-color:rgb(157, 228, 228);
+    color: #fff;
+    outline: none;
+    border: solid 1px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+.botoes{
+    list-style: none;
+}
+
+.botoes li {
+    display: flex;
+}
+.foto{
+    width: 50px;
+    margin: 0px;
+   
+}
