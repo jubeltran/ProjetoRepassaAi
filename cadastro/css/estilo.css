@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url("../fonts/Pacifico/Pacifico.ttf")
+}
+
+@font-face {
+    font-family: 'Normal';
+    src: url("../fonts/corpo/corpo.ttf")
+}
+
+
+body{
+    font-family: 'Normal',sans-serif;
+    background-color:rgb(212, 243, 243);
+}
+.center{
+    text-align: center;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+  
+}
+.botoes{
+    list-style: none;
+}
+
+.botoes li {
+    display: flex;
+}
+.btn{
+    margin: 10px;
+    display: flex;
+    background-color: white;
+    color:black;
+    outline: none;
+    border: solid rgb(157, 228, 228) 1px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 6px 12px;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 10px;
+    display: flex;
+    background-color:rgb(157, 228, 228);
+    color: #fff;
+    outline: none;
+    border: solid 1px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+label, input{
+    display: block;
+    margin: 5px;
+ }
+ label{
+    margin-top: 10px;
+ }
+ .separador{
+    width: 300px;
+    margin: 10px;
+    right: 0px;
+}
+h1{
+    font-family: 'Pacifico',sans-serif;
+}
+.title-1{
+    font-weight: 600;
+    color: black;
+    border-radius: 16px;  
+    margin: 5px;
+}
