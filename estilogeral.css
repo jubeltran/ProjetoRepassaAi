@@ -1,0 +1,44 @@
+@font-face {
+   font-family: 'Pacifico';
+   src: url("/fonts/Pacifico/Pacifico.ttf")
+}
+
+@font-face {
+   font-family: 'Normal';
+   src: url("/fonts/corpo/corpo.ttf")
+}
+
+
+body{
+   font-family: 'Normal',sans-serif;
+   background-color:rgb(212, 243, 243);
+}
+.center{
+   text-align: center;
+  
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center
+ 
+}
+.botoes{
+   list-style: none;
+}
+
+.botoes li {
+   display: flex;
+}
+
+label{
+   margin-top: 10px;
+}
+h1{
+   font-family: 'Pacifico',sans-serif;
+}
+.title-1{
+   font-weight: 600;
+   color: black;
+   border-radius: 16px;  
+   margin: 5px;
+}
